@@ -1,2 +1,43 @@
 - Le contenu de la conférence
-- Sa licence (probablement une Creative Commons
+
+  - Introduction : problèmes de saisie sur le PIE pour tous les étudiants
+    (rapidité, précision, jeu de caractères), possibilité de rectifier le tir
+    pour les prépa avant le cycle ingénieur.
+
+    Pourquoi ? Le clavier est très utilisé, d’autant plus quand on code. Dès la
+    prépa (chez soi ou en exam), puis surtout pendant l’ing1, énormément de
+    temps sur des ordinateurs, mieux vaut être à l’aise avec son clavier (pour
+    l’efficacité et la fatigue…).
+
+  - Vocabulaire : clavier ⇔ keymap, dactylographie, touches mortes, et même un
+    peu d’histoire tant qu’on y est (d’où vient le QWERTY, l’AZERTY, les
+    claviers « droits » (lignes décalées), …)
+
+  - Présentation de quelques alternatives au QWERTY :
+
+    Alternatives considérées : qui permettent d’écrire du français à peu près
+    correct
+
+    - Canadien Multi : proche du QWERTY mais avec des caractères accentués
+
+    - US international : du QWERTY avec des touches mortes pour les caractères
+      accentués
+
+    - Bépo : construit avec la méthode Dvorak, très adapté au français, de très
+      nombreux caractères accessibles et bien positionnés
+
+  - Utilisation d’un clavier
+
+    - En pratique : position des doigts, ne pas regarder le clavier
+
+    - Apprentissage : impossible ou peu efficace et douloureux sans exercices
+      de dactylographie (ex: klavaro sous Windows et GNU/Linux, Ktouch pour
+      GNU/Linux, TypeTrainer4Mac). Un peu d’exercices tous les jours pendant
+      environ une semaine, un peu de pratique « réelle » et c’est gagné !
+
+      Demande juste de la motivation, à éviter en plein rush, les vacances sont
+      le moment idéal pour apprendre.
+
+    - Il est aussi possible de se libérer
+
+- Sa licence (probablement une Creative Commons)

@@ -1,20 +1,8 @@
 - Le contenu de la conférence
 
-  - Présentation de quelques alternatives au QWERTY :
-
-    Alternatives considérées : qui permettent d’écrire du français à peu près
-    correct
-
-    - Canadien Multi : proche du QWERTY mais avec des caractères accentués
-
-    - US international : du QWERTY avec des touches mortes pour les caractères
-      accentués
-
   - Utilisation d’un clavier
 
-    - Comment changer de clavier sur Windows, avec Xorg, … Avantage : où qu’on
-      soit, on a son clavier, on est à l’aise partout (chez soi, sur le PIE, à
-      l’étranger, …).
+    - Étayer les explications (précision) et agrémenter de quelques captures d’écran
 
 - Commenter la source du support avec ce qui est dit à l’oral
 

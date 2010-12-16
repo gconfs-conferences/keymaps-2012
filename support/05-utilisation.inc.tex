@@ -59,10 +59,47 @@
 \subsection{Changer la keymap d’un clavier}
 
 \begin{frame}{Microsoft Windows}
+    Deux possibilités (reviennent à peu près au même)~:
+    \pause
+    \begin{itemize}
+        \item Dans le panneau de configuration, ouvrir l’item «~Clavier~» ou
+          «~Service de texte et de langues~», puis ajouter la keymap voulue et
+          la mettre par défaut dans l’onglet «~Général~». \pause
+
+        \item Ajouter la keymap voulue dans le menu de la «~Barre de langue~»
+          et la sélectionner avant de l’utiliser.
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{Mac OS X}
+    \begin{itemize}
+        \item Tout se passe dans le menu «~International~» (dans les
+          préférences système)~: item «~Langue et texte~», onglet «~Input~»
+          \pause
+
+        \item Il s’agit d’activer des keymaps, pour ensuite les sélectionner
+          dans l’icône de la barre de menus.
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{GNU/Linux et *BSD}
+    \begin{itemize}
+        \item Pour changer la keymap de X~: \pause
+            \begin{itemize}
+                \item Par interface graphique~: dépend du gestionnaire de
+                  bureau utilisé \pause
+
+                \item En ligne de commande~:
+                  \newline \texttt{setxkbmap us} \pause
+                  \newline \texttt{setxkbmap us intl} \pause
+                  \newline \texttt{setxkbmap ca multi} \pause
+                  \newline \texttt{setxkbmap fr} \pause
+                  \newline \texttt{setxkbmap fr bepo} \pause
+                  ...
+            \end{itemize}
+            \pause
+
+        \item Pour changer la keymap des tty~: dépend fortement du système et
+          de la distribution utilisés…\pause
+    \end{itemize}
 \end{frame}

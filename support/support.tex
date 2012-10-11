@@ -1,24 +1,59 @@
 \documentclass{beamer}
+\mode<presentation>
 
+\usepackage{beamerthemesplit}
 \usepackage[francais]{babel}
-\usepackage[utf8]{inputenc}
+\usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
+\usepackage{eurosym}
+\usepackage{listings}
+\usepackage{xcolor}
 
-\mode<presentation>
-\usetheme{Darmstadt}
+% Gconfs is Orange !
+\definecolor{gris}{HTML}{606060}
+\definecolor{gris-clair}{rgb}{0.9,0.9,0.9}
+\definecolor{orange}{rgb}{1,0.5,0.25}
+
+\definecolor{lightgray}{RGB}{240,240,240}
+
+\definecolor{vert}{RGB}{0,176,80}
+\definecolor{verta}{RGB}{79,97,40}
+\definecolor{vertb}{RGB}{195,214,155}
+\definecolor{vertc}{RGB}{235,241,221}
+\definecolor{bleua}{RGB}{31,73,125}
+\definecolor{bleub}{RGB}{219,229,241}
+\definecolor{rougea}{RGB}{192,80,77}
+\definecolor{rougeb}{RGB}{242,220,219}
+\definecolor{orangea}{RGB}{233,132,45}
+\definecolor{orangeb}{RGB}{188,84,7}
+
+\definecolor{brown}{RGB}{128,0,0}
+\definecolor{blue}{RGB}{0,0,255}
+\definecolor{green}{RGB}{0,128,0}
+\definecolor{seagreen}{RGB}{69,158,181}
+
+\usetheme{Darmstadt} %%% Thème que j'ai choisi pour les slides
+
+\setbeamercovered{transparent}
+\setbeamercolor{structure}{bg=black,fg=orangea}
+
+% EOGT End Of Gconfs Theme
 
 \title{Choisir son clavier}
 \author{
-  Pierre-Marie de Rodat (PM, \texttt{de-rod\_p})
-  \and Maxime Fournier (\texttt{fourni\_c})
+  Pierre-Marie \textsc{de Rodat} (PM, \texttt{de-rod\_p})\\
+  \and Ivan \textsc{Delelande} (Colona, \texttt{delala\_i})
 }
 \date{\today}
 
 \begin{document}
 
 \begin{frame}
-  \maketitle
+    \begin{center}
+        \includegraphics[scale=0.35]{images/gconfs.png}
+    \end{center}
+    \maketitle
 \end{frame}
 
 \include{01-introduction.inc}
@@ -30,8 +65,8 @@
 }
 
 \include{02-vocabulaire.inc}
-\include{03-keymaps-alternatives.inc}
-\include{04-materiel.inc}
+\include{03-materiel.inc}
+\include{04-keymaps-alternatives.inc}
 \include{05-utilisation.inc}
 
 \end{document}

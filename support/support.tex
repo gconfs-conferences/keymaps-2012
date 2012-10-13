@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage{eurosym}
 \usepackage{listings}
+\usepackage{hyperref}
 \usepackage{xcolor}
 
 % Gconfs is Orange !
@@ -41,9 +42,9 @@
 % EOGT End Of Gconfs Theme
 
 \title{Choisir son clavier}
-\author{
+\author[PM \and Colona]{
   Pierre-Marie \textsc{de Rodat} (PM, \texttt{de-rod\_p})\\
-  \and Ivan \textsc{Delelande} (Colona, \texttt{delala\_i})
+  \and Ivan \textsc{Delalande} (Colona, \texttt{delala\_i})
 }
 \date{\today}
 
@@ -58,15 +59,16 @@
 
 \include{01-introduction.inc}
 
-\AtBeginSection{
-  \begin{frame}
-    \tableofcontents[currentsection]
-  \end{frame}
-}
+%\AtBeginSection{
+%  \begin{frame}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
 
 \include{02-vocabulaire.inc}
 \include{03-materiel.inc}
 \include{04-keymaps-alternatives.inc}
 \include{05-utilisation.inc}
+\include{06-conclusion.inc}
 
 \end{document}
